@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Gemunu+Libre&display=swap');
+
+html{
+	scroll-behavior: smooth;
+	font-family: 'Abyssinica SIL', serif;
+}
+
+#home{
+	background-image: url(./imgs/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+#header-text{
+	color: black;
+	text-align: center;
+	padding-top: 20vh;
+	font-weight: 400;
+	font-family: 'Gemunu Libre', sans-serif;
+}
+
+#social{
+	width: 25px;
+	height: 25px;
+	border-radius: 3px;
+	padding: 4px;
+	display: inline-block;
+	color: #100040;
+}
+
+#social:hover, .fab:focus{
+	background-color: #100040;
+	color: #fff;
+}
+
+footer{
+	width: 100vw;
+}
+
+#text-links:hover{
+	color: purple;
+	text-decoration: underline;
+	transition: color .1s ease-in;
+}
+
+#ct-action{
+	background-color: #ff9326;
+	color: #100040;
+	font-weight: 400;
+}
+
+#ct-action:hover{
+	background-color: #b35900;
+	color: #001040;
+	font-weight: 400;
+}
+
+
+
+@media (max-width: 600px){
+	#social{
+		columns-count: 2;
+		
+	}
+}

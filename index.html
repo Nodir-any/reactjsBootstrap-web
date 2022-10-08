@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>New React-Bootstrap project</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!------------bootstrap------------->
+	<link href="./node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="styles.css">
+	
+	<!-------------react cdn--------------------->
+	<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+	<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+	
+	<script src="https://kit.fontawesome.com/59ea9a7e7e.js" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: hsla(166,10%,88%,1);">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffcc99;">
+			<a class="navbar-brand" style="margin-left: 20px;" href="#">
+			<i class="fa-brands fa-react">
+			React</i> & <i class="fa-brands fa-bootstrap">Bootstrap</i>
+			
+			</a>
+			
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ml-4">
+        <a class="nav-link active" href="#">Home <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#article">Article</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Next</a>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          links
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">link1</a>
+          <a class="dropdown-item" href="#">link2</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">link3</a>
+        </div>
+      </li>
+    </ul>
+    <form class="d-flex form-inline my-2 mx-5 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!------home---------->
+<div id="home">
+	<h3 class="display-3 px-1" id="header-text">It is the place for the custom <br>description
+	for either <i class="text-success">personal</i><br> or <i class="text-danger">business</i> website<h3>
+	
+	<div class="text-center">
+		<a href="#" class="btn btn-primary btn-lg active border-0" role="button" aria-pressed="true" id="ct-action">
+			Call to action
+		</a>
+	</div>
+</div>
+
+
+
+<!--------articles---------->
+<div class="container mt-5 mb-5" id="article">
+<article>
+<h4 class="text-center">Article</h4>
+<p>
+
+		
+		<blockquote class="blockquote m-4 text-center"><p class="mb-3">Fusce in aliquam elit, sed pellentesque risus. Cras ante sapien, accumsan quis 
+		dictum ac, malesuada a felis. Proin ac libero ac neque scelerisque laoreet a ac 
+		risus. Duis vel molestie nisi. Sed aliquam vulputate dignissim.<footer class="blockquote-footer">Here is the source</footer></p>
+		</blockquote> 
+		
+	<div class="container">
+		<div class="row">
+				<div class="card col border-0" style="background-color: hsla(166,10%,88%,1);">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisi tellus,
+					tempus sed sollicitudin maximus, dictum sed odio. Phasellus cursus augue mauris.
+					Vivamus efficitur pharetra vestibulum. Etiam ultricies nisl nisi, et molestie diam 
+					euismod et. Phasellus ornare velit a nisi viverra porttitor. In a aliquam urna, vitae 
+					congue turpis. Sed iaculis porttitor neque. <img class="mt-2 mb-2" src="https://picsum.photos/200/100">
+				
+					Integer ultricies ac nulla ac fringilla. 
+					Ut finibus, risus non molestie iaculis, quam quam euismod sapien, nec consectetur risus 
+					enim id metus. Donec lacus purus, fringilla vel dui eu, porta tincidunt nulla. Sed turpis
+					tellus, porta faucibus neque a, malesuada ornare nibh. Class aptent taciti sociosqu ad 
+					litora torquent per conubia nostra, per inceptos himenaeos
+					<img class="mt-2 mb-2" src="https://picsum.photos/200/250">torquent per conubia nostra, per inceptos himenaeos
+				</div>
+				<div class="card col border-0" style="background-color: hsla(166,10%,88%,1);"><img class="mt-2 mb-2" src="https://picsum.photos/200/100">
+					Duis ut lectus mauris.
+					Donec mattis efficitur dui a dapibus. Donec consequat nulla mauris, non euismod urna 
+					consectetur eu. <a href="#" class="text-decoration-none" id="text-links">Nullam</a> volutpat arcu ante, vitae lacinia quam consectetur tempus. Nulla
+					facilisis non nisl ac consectetur. Integer quis laoreet enim. Duis nec tortor sit amet 
+					ipsum molestie condimentum vel nec eros. Maecenas at lorem tincidunt, blandit est ac, 
+					pellentesque eros. Nunc eget sodales ligula.
+
+					Vivamus convallis facilisis sem, a venenatis nulla laoreet vel. Vestibulum ipsum nisl,
+					ultricies nec libero ut, egestas pulvinar nulla. Sed pellentesque tellus non laoreet
+					posuere. Fusce libero neque, porttitor nec ante at, sollicitudin luctus erat. Duis nec 
+					semper leo. Sed gravida nisl eu maximus sagittis. Donec posuere vel lacus at egestas. 
+					<img class="mt-2 mb-2" src="https://picsum.photos/200/200">
+					Vivamus convallis facilisis sem, a venenatis nulla laoreet vel. Vestibulum ipsum nisl,
+					ultricies nec libero ut, egestas pulvinar nulla. Sed pellentesque tellus non laoreet
+					posuere. Fusce libero neque, porttitor nec ante at, sollicitudin luctus erat. Duis nec 
+					semper leo. Sed gravida <a href="#" class="text-decoration-none" id="text-links">
+					nisl eu maximus sagittis.</a> Donec posuere vel lacus at egestas. 
+				</div>
+			
+		</div>
+	</div>
+	
+</p>
+
+</article>
+</div>
+
+
+<!-------react root-------->
+<div id="root">
+
+</div>
+
+<!------------react components-------------->
+
+
+
+
+<!------footer------------->
+<div class="container m-0 p-0">
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #100040"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #ffcc99; color: black;"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Contact us:</span>
+      </div>
+      <!-- Left -->
+
+    <!-- Section: Social media -->
+      <div>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-facebook-f" id="social"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-twitter" id="social"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-google" id="social"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-instagram" id="social"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-linkedin" id="social"></i>
+        </a>
+        <a href="" class="me-4">
+          <i class="fa-brands fa-github" id="social"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+	
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Logo name</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #ffcc99; height: 2px"
+                />
+            <p>
+              Description of your company or your own personality. 
+			  Description of your company or your own personality.
+            </p>
+          </div>
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Services</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #ffcc99; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">your service</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">your service</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">your service</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">your service</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #ffcc99; height: 2px"
+                />
+            <p>
+              <a href="#home" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#article" class="text-white">Articles</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Services</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #ffcc99; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Address, Town, N00</p>
+            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + ph one num ber</p>
+            <p><i class="fas fa-print mr-3"></i> + fax num ber</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: #101820ff"
+         >
+      © 2022 Copyright:
+      <a class="text-white" href="https://example.example"
+         >Example.example</a
+        >
+    </div>
+  </footer>
+
+</div>
+
+<!------bootstrap js--------->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js" ></script>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.js" ></script>
+
+<!-----react components----------->
+<script src="./components/App.js"></script>
+
+</body>
+</html>
